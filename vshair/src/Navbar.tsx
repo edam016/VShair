@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Navbar = () => {
 
-    const navbarData = ([['1', 'Home'],['2', 'About Me'], ['3', 'Bookings']]);
+    const navbarData = ([['1', 'Home'],['2', 'About Me'],['3', 'Pricing'], ['4', 'Bookings']]);
     return (
         <div style={{ display: 'flex', margin: '30px', justifyContent: "flex-end"}}>
             {navbarData.map((value, key) => (
